@@ -9,3 +9,18 @@ if __name__ == '__main__':
         
 question 3 = print(f"{a+b}\n{a-b}\n{a*b}")
 question 4 = print(F"{a//b}\n{a/b}")
+ 
+  Function exercise 
+  def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if year % 400 == 0:
+        leap = True
+    elif year % 100 == 0:
+        leap = False
+    elif year % 4 == 0:
+        leap = True
+    return leap
+
+  
