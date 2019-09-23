@@ -1,0 +1,11 @@
+question 1 = print("Hello, World!")
+question 2 = 
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n%2!=0 or n in range(6,21)):
+        print("Weird")
+    else:
+        print("Not Weird")
+        
+question 3 = print(f"{a+b}\n{a-b}\n{a*b}")
+question 4 = print(F"{a//b}\n{a/b}")
